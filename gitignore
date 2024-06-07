@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript compilation output
+/dist/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Environment variables file
+.env
+
+# Compiled JavaScript files
+*.js
+*.js.map

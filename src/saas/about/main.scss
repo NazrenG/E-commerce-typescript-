@@ -1,0 +1,11 @@
+@import "./components/footer";
+@import "./components/header";
+@import "./components/main";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+
+  border-style: none;
+}

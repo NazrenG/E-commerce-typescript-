@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  border-style: none;
+}
+#login {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.login_image {
+  filter: blur(4px);
+}
+
+.sign_in {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.main_image {
+  width: 100px;
+  height: 100px;
+}
+
+.sign_div {
+  text-align: center;
+  margin: auto;
+}
+.sign_title {
+  font-weight: 900;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.sign_social_media {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+.btn_media {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-weight: 700;
+  font-size: large;
+  text-align: center;
+}
+.sign_email {
+  box-sizing: border-box;
+}
+.sign_password {
+  box-sizing: border-box;
+}
+.sign_input {
+  position: relative;
+  width: 250px;
+}
+.sign_text {
+  margin-bottom: 20px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.sign_input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  color: #000000;
+  font-size: 1em;
+}
+.sign_input span {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgb(47, 49, 49);
+  transition: 0.5s;
+}
+.sign_input input:valid ~ span,
+.sign_input input:focus ~ span {
+  color: rgb(47, 49, 49);
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background-color: white;
+  border-left: 1px solid rgb(47, 49, 49);
+  border-right: 1px solid rgb(47, 49, 49);
+}
+.sign_button {
+  padding: 13px 26px;
+  border-radius: 2px;
+  background-color: #1e2832;
+  color: white;
+  font-size: large;
+}
+.sign_button:hover {
+  background-color: transparent;
+  color: #1e2832;
+  border: 1px solid #1e2832;
+}
+
+.sign_up {
+  background-image: url("./../../assets/images/mainImage.jpg");
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
